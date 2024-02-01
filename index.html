@@ -1,150 +1,139 @@
-
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>BYOBFG</title>
         <meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
-
-
-
-
-
-
-
-        .float{
-            position:fixed;
-            width:60px;
-            height:60px;
-            bottom:40px;
-            right:40px;
-            background-color:#25d366;
-            color:#FFF;
-            border-radius:50px;
-            text-align:center;
-            font-size:30px;
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
             box-shadow: 2px 2px 3px #999;
-            z-index:100;
+            z-index: 100;
         }
 
-    .my-float{
-    margin-top:16px;
-    }
+        .my-float {
+            margin-top: 16px;
+        }
 
-body {
-    background-color: black;
-    font-family: oswald-medium, oswald, sans-serif;
-    color: white;
+        body {
+            background-color: black;
+            font-family: oswald-medium, oswald, sans-serif;
+            color: white;
 
-    margin: 7%;
+            margin: 7%;
 
-}
+        }
 
-label {
-    color: white;
-}
+        label {
+            color: white;
+        }
 
-input[type=text] {
-    width: 420px;
-    padding: 12px 50px;
-    margin: 8px 0;
-    border: none;
-    color: aliceblue;
-    border-bottom: 2px solid white;
-    background-color: transparent;
-}
+        input[type=text] {
+            width: 420px;
+            padding: 12px 50px;
+            margin: 8px 0;
+            border: none;
+            color: aliceblue;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+        }
 
-input:hover {
-    border-bottom: 2px solid transparent;
-}
+        input:hover {
+            border-bottom: 2px solid transparent;
+        }
 
-input[type=email] {
-    width: 420px;
-    padding: 12px 50px;
-    margin: 8px 0;
-    border: none;
-    color: aliceblue;
-    border-bottom: 2px solid white;
-    background-color: transparent;
-}
+        input[type=email] {
+            width: 420px;
+            padding: 12px 50px;
+            margin: 8px 0;
+            border: none;
+            color: aliceblue;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+        }
 
-input:hover {
-    border-bottom: 2px solid transparent;
-}
+        input:hover {
+            border-bottom: 2px solid transparent;
+        }
 
-input[type=phone] {
-    width: 420px;
-    padding: 12px 50px;
-    margin: 8px 0;
-    border: none;
-    color: aliceblue;
-    border-bottom: 2px solid white;
-    background-color: transparent;
-}
+        input[type=phone] {
+            width: 420px;
+            padding: 12px 50px;
+            margin: 8px 0;
+            border: none;
+            color: aliceblue;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+        }
 
-input:hover {
-    border-bottom: 2px solid transparent;
-}
+        input:hover {
+            border-bottom: 2px solid transparent;
+        }
 
-textarea:hover {
-    border-bottom: 2px solid transparent;
-}
+        textarea:hover {
+            border-bottom: 2px solid transparent;
+        }
 
-.les {
-    width: 90%;
-    height: 70px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    color: aliceblue;
-    border-bottom: 2px solid white;
-    background-color: transparent;
-}
+        .les {
+            width: 90%;
+            height: 70px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            color: aliceblue;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+        }
 
-.les:hover {
-    border-bottom: 2px solid transparent;
-}
+        .les:hover {
+            border-bottom: 2px solid transparent;
+        }
 
-#try[type=text] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    color: aliceblue;
-    border-bottom: 2px solid white;
-    background-color: transparent;
-}
+        #try[type=text] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            color: aliceblue;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+        }
 
-#try:hover {
-    border-bottom: 2px solid transparent;
-}
+        #try:hover {
+            border-bottom: 2px solid transparent;
+        }
 
-.submitbtn {
-    border: 20px solid #4797BA;
-    border-width: 10%;
-    background-color: #4797BA;
-    color: white;
-    font-size: 18px;
+        .submitbtn {
+            border: 20px solid #4797BA;
+            border-width: 10%;
+            background-color: #4797BA;
+            color: white;
+            font-size: 18px;
 
-    border-radius: 2%;
+            border-radius: 2%;
 
-}
+        }
 
-.submitbtn:hover {
-    border: 20px solid #75ccf1;
-    border-width: 10%;
-    background-color: #84d1f2;
-    color: white;
-    font-size: 18px;
+        .submitbtn:hover {
+            border: 20px solid #75ccf1;
+            border-width: 10%;
+            background-color: #84d1f2;
+            color: white;
+            font-size: 18px;
 
-    border-radius: 2%;
-}
-
-
-</style>
+            border-radius: 2%;
+        }
+    </style>
     </head>
 
     <body>
@@ -155,7 +144,8 @@ textarea:hover {
 
         <form
             action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-            method="POST" onsubmit="return checkIfValueIsFilledInform()">
+            method="POST"
+            onsubmit="return checkIfValueIsFilledInform()">
 
             <input type=hidden name="oid" value="00DDn00000DFqx3">
             <input type=hidden name="retURL" value="https://www.2byob.com/">
@@ -174,7 +164,8 @@ justify-content: center;">
                             <label for="first_name">First Name</label>
                             <br />
                             <input id="first_name" maxlength="100"
-                                name="first_name" size="20" required type="text" /><br>
+                                name="first_name" size="20" required
+                                type="text" /><br>
 
                         </div>
 
@@ -212,9 +203,9 @@ align-items: center;">
                         <div>
                             Select Consultant<br><br>
                             <input class="myPicklist" onchange="showData()"
-                                id="00NDn00000aHnEm" placeholder="--NONE--" required
-                                type="search" autocomplete="off" role="combobox"
-                                name="00NDn00000aHnEm"
+                                id="00NDn00000aHnEm" placeholder="--NONE--"
+                                required type="search" autocomplete="off"
+                                role="combobox" name="00NDn00000aHnEm"
                                 title="consultant" list="consultants"
                                 style="    width: 520px;
             height: 40px;
@@ -246,9 +237,12 @@ align-items: center;">
                         " id="00NDn00000aI8Hf" name="00NDn00000aI8Hf" required
                                             title="Select your preferred language">
                                             <option value>--None--</option>
-                                            <option value="English">English</option>
-                                            <option value="Portuguese">Portuguese</option>
-                                            <option value="Spanish">Spanish</option>
+                                            <option
+                                                value="English">English</option>
+                                            <option
+                                                value="Portuguese">Portuguese</option>
+                                            <option
+                                                value="Spanish">Spanish</option>
                                         </select><br><br>
 
                                     </div>
@@ -350,79 +344,79 @@ justify-content: space-between;">
 
                 <!--referal script-->
                 <script>
-            var picklist = document.getElementById("00NDn00000aHo15");
-            var FieldToShow = document.getElementById("anotherField");
+        var picklist = document.getElementById("00NDn00000aHo15");
+        var FieldToShow = document.getElementById("anotherField");
 
-            picklist.addEventListener("change", function () {
+        picklist.addEventListener("change", function () {
             if (picklist.value === "Other") {
                 anotherField.style.display = "block";
             } else {
                 anotherField.style.display = "none";
             }
-            });
-        </script>
+        });
+    </script>
 
                 <!--Calendar js-->
-                <!--<script>
+                <script>
 
-var consultants = document.getElementById("00NDn00000aHnEm");
+        var consultants = document.getElementById("00NDn00000aHnEm");
 
-consultants.addEventListener("change", function () {
-    // log the value of the hidden field
-    console.log(consultants.value);
+        consultants.addEventListener("change", function () {
+            // log the value of the hidden field
+            console.log(consultants.value);
 
-    // change retURL in this field <input type=hidden name="retURL" value="http://"> to https://calendly.com/sarangsoin416/30min
+            // change retURL in this field <input type=hidden name="retURL" value="http://"> to https://calendly.com/sarangsoin416/30min
 
-    returlfield = document.getElementsByName("retURL");
+            returlfield = document.getElementsByName("retURL");
 
-    if (consultants.value == "Consultant P") {
-        returlfield[0].value = "https://www.2byob.com/?";
+            if (consultants.value == "Victor Hugo") {
+                returlfield[0].value = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1fHhdfg6fxG1AfYtShTsmRCnvANBgojQoPufXuXQ-iq8c-2gl_6PtrHsljBuVh7hCcFt4BIa4w";
 
-        console.log(returlfield[0].value);
+                console.log(returlfield[0].value);
 
-        // change color to white and background color to #4797BA
-        consultants.style.color = "white";
-        consultants.style.backgroundColor = "#4797BA";
+                // change color to white and background color to #4797BA
+                consultants.style.color = "white";
+                consultants.style.backgroundColor = "#4797BA";
 
-    }
-    else if (consultants.value == "") {
-        returlfield[0].value = "https://www.2byob.com/?";
+            }
+            else if (consultants.value == "") {
+                returlfield[0].value = "https://www.2byob.com/?";
 
-        console.log(returlfield[0].value);
+                console.log(returlfield[0].value);
 
-        // change color to white and background color to #4797BA
-        consultants.style.color = "black";
-        consultants.style.backgroundColor = "white";
+                // change color to white and background color to #4797BA
+                consultants.style.color = "black";
+                consultants.style.backgroundColor = "white";
 
-        // make this field required
-        consultants.required = true;
+                // make this field required
+                consultants.required = true;
 
-    }
-    else if (consultants.value == "Consultant Q") {
-        returlfield[0].value = "https://www.2byob.com/?";
+            }
+            else if (consultants.value == "Adriani Garcia") {
+                returlfield[0].value = "https://calendar.app.google/9bL627mNkRhs7LX89";
 
-        console.log(returlfield[0].value);
+                console.log(returlfield[0].value);
 
-        // change color to white and background color to #4797BA
-        consultants.style.color = "white";
-        consultants.style.backgroundColor = "#4797BA";
+                // change color to white and background color to #4797BA
+                consultants.style.color = "white";
+                consultants.style.backgroundColor = "#4797BA";
 
-    }
-    else if (consultants.value == "Consultant R") {
-        returlfield[0].value = "https://www.2byob.com/?";
+            }
+            else if (consultants.value == "Matheus Henrique Silva") {
+                returlfield[0].value = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3DoKUouYUCMjtrsyuSaWEEKCen5NUgXzct07_wuWziEl443FXkKSSC8opu2aPg0pQRPPDjDCrl";
 
-        console.log(returlfield[0].value);
+                console.log(returlfield[0].value);
 
-        // change color to white and background color to #4797BA
-        consultants.style.color = "white";
-        consultants.style.backgroundColor = "#4797BA";
+                // change color to white and background color to #4797BA
+                consultants.style.color = "white";
+                consultants.style.backgroundColor = "#4797BA";
 
-    }
+            }
 
-});
+        });
 
 
-</script> -->
+    </script>
 
                 <!--++++++++++++++++++++++++++++++++++++++++++ next button jS ++++++++++++++++++++++++++++++++++++++++-->
 
@@ -514,29 +508,29 @@ consultants.addEventListener("change", function () {
 
     }
 
-</script> -->
+</script>-->
                 <script>
-                    function showData() {
-                        var picklist = document.querySelector(".myPicklist");
-                        var inputField = document.querySelector(".myInput");
-                        var selectedValue = picklist.value;
+        function showData() {
+            var picklist = document.querySelector(".myPicklist");
+            var inputField = document.querySelector(".myInput");
+            var selectedValue = picklist.value;
 
-                     
-		 if (selectedValue === "Victor Hugo") {
-                            inputField.value = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1fHhdfg6fxG1AfYtShTsmRCnvANBgojQoPufXuXQ-iq8c-2gl_6PtrHsljBuVh7hCcFt4BIa4w";
-                    }
-			else if (selectedValue === "Adriani Garcia") {
-                            inputField.value = "https://calendar.app.google/9bL627mNkRhs7LX89";
-                    }
-			else if (selectedValue === "Matheus Henrique Silva") {
-                            inputField.value = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3DoKUouYUCMjtrsyuSaWEEKCen5NUgXzct07_wuWziEl443FXkKSSC8opu2aPg0pQRPPDjDCrl";
-                    }
-			
-                          else {
-                            inputField.value = " ";
-                    }
-                    }
-        </script>
 
-            </body>
-        </html>
+            if (selectedValue === "Victor Hugo") {
+                inputField.value = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1fHhdfg6fxG1AfYtShTsmRCnvANBgojQoPufXuXQ-iq8c-2gl_6PtrHsljBuVh7hCcFt4BIa4w";
+            }
+            else if (selectedValue === "Adriani Garcia") {
+                inputField.value = "https://calendar.app.google/9bL627mNkRhs7LX89";
+            }
+            else if (selectedValue === "Matheus Henrique Silva") {
+                inputField.value = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3DoKUouYUCMjtrsyuSaWEEKCen5NUgXzct07_wuWziEl443FXkKSSC8opu2aPg0pQRPPDjDCrl";
+            }
+
+            else {
+                inputField.value = " ";
+            }
+        }
+    </script>
+
+    </body>
+</html>
